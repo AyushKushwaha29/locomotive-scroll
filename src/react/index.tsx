@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useEffect, useRef, useLayoutEffect } from 'react';
-// Check if the main class is a default export or named export
-import LocomotiveScroll from '../locomotive-scroll';
+import React, { createContext, useContext, useRef, useLayoutEffect } from 'react';
+// We use a relative import to the main file in the parent folder
+import LocomotiveScroll from '../index';
 
 // 1. Create the Context
 const LocomotiveScrollContext = createContext<any>(null);
